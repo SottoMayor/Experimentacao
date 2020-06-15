@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+body, html{
+    height: 100%;
+    min-width: 1280px;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 76px;
+    background-color: crimson;
+}
+
+.header img{
+    height: 50px;
+    width: 80px;
+}
+
+.header img{
+    margin: 19px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../imagens/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    padding: 15px;
+    width: 400px;
+    height: calc(100% + 30px);
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    border: 8px solid rgb(211,211,211, 0.5);
+    background-clip: padding-box;
+}
+
+.form h2{
+    font-weight: normal;
+    color: gray;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+
+}
+
+.input-container span, .form span{
+    display: inline-block;
+    width: 100%;
+    color: gray;
+    font-size: 17px;
+}
+
+.input-container input[type=text]{
+    margin-top: 10px;
+    width: 344px;
+    height: 55px;
+    border: 1.5px solid lightgray;
+    padding: 10px;
+}
+
+.form p{
+    margin: 18px 0;
+}
+
+.center-botton{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    display: inline-block;
+    width: 280px;
+    height: 86px;
+    background-color: crimson;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover{
+    background-color: rgb(243, 10, 57); 
+
+}
+
+.container-list{
+    padding: 35px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgb(204, 79, 104, 0.6);
+    margin-top: 45px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    color: white;
+    margin-top: 15px;
+}
+
+.container2{
+    padding: 40px 0;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.container2 h2{
+    font-weight: normal;
+}
+
+.container2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    left: 50% ;
+    margin-left: -20px;
+    background-image: url(../imagens/arrow.png);
+    background-size: 100% 100%;
+}
+
+.section1{
+    padding: 90px 0;
+}
+
+.section1 h2{
+    text-align: center;
+    color: gray;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float:left;
+    width:33.33%;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.container-single img{
+    width: 70px;
+}
+
+.footer{
+    padding: 20px 0;
+    border-top: 4px solid crimson;
+    text-align: center;
+    margin-top: 8px;
+}
