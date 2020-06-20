@@ -140,6 +140,7 @@ body, html{
 
 .container2 p{
     width: 100%;
+    max-width: 768px;
     display: inline-block;
     text-align: justify;
     margin: 15px 0;
@@ -191,4 +192,76 @@ body, html{
     border-top: 4px solid crimson;
     text-align: center;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .header{
+        width: 100%;
+        padding: 15px 0;
+        height: auto;
+    }
+    .header img{
+        margin: 0 20px;
+    }
+
+    .container-banner{
+        width: 100%;
+        padding: 40 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .form{
+        padding: 15px;
+        margin-top: 30px;
+        width: 60%;
+        max-width: 400px;
+        height: 100%;
+        float: right;
+    }
+
+    .container-list{
+        padding: 35px 0;
+        margin-top: 30px;
+        float: left;
+        max-width: 500px;
+        width: 40%;
+        height: auto;
+    }
+
+    .container2 p{
+        padding: 0 20px;
+    
+    }
+}
+
+@media screen and (max-width:768px){
+    .container-list{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+        float: none;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .container-single{
+        float:none;
+        display: inline-block;
+        width:100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width:667px){
+    .container-list{
+        margin-top: 20px;
+    }
 }
